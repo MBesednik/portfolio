@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Glassmorphism - Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Page Loader Start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
+
+    <!-- Background Circles Start -->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!-- Background Circles End -->
+
+    <!-- Overlay Start -->
+    <div class="overlay"></div>
+    <!-- Overlay End -->
+
+    <!-- Main Start -->
+    <main class="main hidden">
+      <!-- Header Start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li>
+                    <a href="#home" class="nav-item link-item">Početna</a>
+                  </li>
+                  <li>
+                    <a href="#about" class="nav-item link-item">O meni</a>
+                  </li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >Portfolio</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header End -->
+
+      <!-- Home Section Start -->
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center justify-content">
+            <div class="home-text">
+              <p>Pozdrav, ja sam</p>
+              <h1>Mateo Besednik</h1>
+              <h2>frontend web developer</h2>
+              <a href="#about" class="btn btn-white link-item">O meni</a>
+              <a href="#portfolio" class="btn btn-white link-item">Portfolio</a>
+            </div>
+            <!-- <div class="home-img">
+              <div class="img-box">
+                <img src="img/profile-img.png" alt="Profile image" />
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- About Section Start -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>O meni</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="img/profile-img.png" alt="About image" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi, animi voluptatem! Nulla quaerat ab, ex porro ipsum
+                soluta dignissimos magni iusto magnam iste, sequi nam iure earum
+                dolores alias quas?
+              </p>
+              <h3>Tehnologije</h3>
+              <div class="skills">
+                <div class="skill-item">html</div>
+                <div class="skill-item">css</div>
+                <div class="skill-item">javascript</div>
+                <div class="skill-item">bootstrap</div>
+                <div class="skill-item">sass</div>
+                <div class="skill-item">react</div>
+                <div class="skill-item">gulp</div>
+                <div class="skill-item">git</div>
+              </div>
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  Obrazovanje
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  Iskustvo
+                </button>
+              </div>
+
+              <!-- Education Start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2014 - 2018</span>
+                    <h4>
+                      Računalstvo -
+                      <span>I. tehnička škola Tesla</span>
+                    </h4>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Provident alias odio vitae error ducimus quae delectus
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2018 - 2022</span>
+                    <h4>
+                      Prvostupnik informatike -
+                      <span>Fakultet organizacije i informatike</span>
+                    </h4>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Provident alias odio vitae error ducimus quae delectus
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2022 - 2023</span>
+                    <h4>
+                      Razlikovna godina -
+                      <span>Fakultet organizacije i informatike</span>
+                    </h4>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Provident alias odio vitae error ducimus quae delectus
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Education End -->
+
+              <!-- Experience Start -->
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2020</span>
+                    <h4>HTML/CSS</h4>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Ipsa laudantium ab eaque, delectus animi, nihil amet
+                      incidunt tempore, inventore earum corporis ex rerum
+                      veritatis voluptate. Tempore suscipit vero quia aperiam.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2020</span>
+                    <h4>HTML/CSS</h4>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Ipsa laudantium ab eaque, delectus animi, nihil amet
+                      incidunt tempore, inventore earum corporis ex rerum
+                      veritatis voluptate. Tempore suscipit vero quia aperiam.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2020</span>
+                    <h4>HTML/CSS</h4>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Ipsa laudantium ab eaque, delectus animi, nihil amet
+                      incidunt tempore, inventore earum corporis ex rerum
+                      veritatis voluptate. Tempore suscipit vero quia aperiam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Experience End -->
+              <a href="cv.pdf" class="btn btn-white" target="_blank"
+                >Preuzmite CV</a
+              >
+              <a href="mailto:mateo.besednik@gmail.com" class="btn btn-white"
+                >Kontaktirajte me</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Portfolio Section Start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Moji projekti</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/1.jpg" alt="Projekt 1" />
+              </div>
+              <h3 class="portfolio-item-title">Projekt 1</h3>
+              <!-- <button type="button" class="btn view-project-btn">
+                Saznaj više
+              </button> -->
+              <a href="#" type="button" class="btn btn-white view-project-btn"
+                >Saznaj više</a
+              >
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quisquam suscipit laborum tempore quos, rem fugiat odio
+                    natus sed iure reprehenderit eum nemo recusandae facere illo
+                    nesciunt maiores atque praesentium! Eveniet.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Završeno - <span>Neki datum...</span></li>
+                    <li>Tehnologije - <span>Html, Css, JavaScript</span></li>
+                    <li>Područje - <span>Frontend</span></li>
+                    <li>
+                      Demo -
+                      <span><a href="#" target="_blank">www.demo.com</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/2.jpg" alt="Projekt 2" />
+              </div>
+              <h3 class="portfolio-item-title">Projekt 2</h3>
+              <!-- <button type="button" class="btn view-project-btn">
+                Saznaj više
+              </button> -->
+              <a href="#" type="button" class="btn btn-white view-project-btn"
+                >Saznaj više</a
+              >
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quisquam suscipit laborum tempore quos, rem fugiat odio
+                    natus sed iure reprehenderit eum nemo recusandae facere illo
+                    nesciunt maiores atque praesentium! Eveniet.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Završeno - <span>Neki datum...</span></li>
+                    <li>Tehnologije - <span>Html, Css, JavaScript</span></li>
+                    <li>Područje - <span>Frontend</span></li>
+                    <li>
+                      Demo -
+                      <span><a href="#" target="_blank">www.demo.com</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/3.jpg" alt="Projekt 3" />
+              </div>
+              <h3 class="portfolio-item-title">Projekt 3</h3>
+              <!-- <button type="button" class="btn view-project-btn">
+                Saznaj više
+              </button> -->
+              <a href="#" type="button" class="btn btn-white view-project-btn"
+                >Saznaj više</a
+              >
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quisquam suscipit laborum tempore quos, rem fugiat odio
+                    natus sed iure reprehenderit eum nemo recusandae facere illo
+                    nesciunt maiores atque praesentium! Eveniet.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Završeno - <span>Neki datum...</span></li>
+                    <li>Tehnologije - <span>Html, Css, JavaScript</span></li>
+                    <li>Područje - <span>Frontend</span></li>
+                    <li>
+                      Demo -
+                      <span><a href="#" target="_blank">www.demo.com</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/4.jpg" alt="Projekt 4" />
+              </div>
+              <h3 class="portfolio-item-title">Projekt 4</h3>
+              <!-- <button type="button" class="btn view-project-btn">
+                Saznaj više
+              </button> -->
+              <a href="#" type="button" class="btn btn-white view-project-btn"
+                >Saznaj više</a
+              >
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quisquam suscipit laborum tempore quos, rem fugiat odio
+                    natus sed iure reprehenderit eum nemo recusandae facere illo
+                    nesciunt maiores atque praesentium! Eveniet.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Završeno - <span>Neki datum...</span></li>
+                    <li>Tehnologije - <span>Html, Css, JavaScript</span></li>
+                    <li>Područje - <span>Frontend</span></li>
+                    <li>
+                      Demo -
+                      <span><a href="#" target="_blank">www.demo.com</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/5.jpg" alt="Projekt 5" />
+              </div>
+              <h3 class="portfolio-item-title">Projekt 5</h3>
+              <!-- <button type="button" class="btn view-project-btn">
+                Saznaj više
+              </button> -->
+              <a href="#" type="button" class="btn btn-white view-project-btn"
+                >Saznaj više</a
+              >
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quisquam suscipit laborum tempore quos, rem fugiat odio
+                    natus sed iure reprehenderit eum nemo recusandae facere illo
+                    nesciunt maiores atque praesentium! Eveniet.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Završeno - <span>Neki datum...</span></li>
+                    <li>Tehnologije - <span>Html, Css, JavaScript</span></li>
+                    <li>Područje - <span>Frontend</span></li>
+                    <li>
+                      Demo -
+                      <span><a href="#" target="_blank">www.demo.com</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/6.jpg" alt="Projekt 6" />
+              </div>
+              <h3 class="portfolio-item-title">Projekt 6</h3>
+              <!-- <button type="button" class="btn view-project-btn">
+                Saznaj više
+              </button> -->
+              <a href="#" type="button" class="btn btn-white view-project-btn"
+                >Saznaj više</a
+              >
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quisquam suscipit laborum tempore quos, rem fugiat odio
+                    natus sed iure reprehenderit eum nemo recusandae facere illo
+                    nesciunt maiores atque praesentium! Eveniet.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Završeno - <span>Neki datum...</span></li>
+                    <li>Tehnologije - <span>Html, Css, JavaScript</span></li>
+                    <li>Područje - <span>Frontend</span></li>
+                    <li>
+                      Demo -
+                      <span><a href="#" target="_blank">www.demo.com</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+    </main>
+    <!-- Main End -->
+
+    <!-- Portfolio Item Details Popup Start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="img/portfolio/3.jpg" alt="Popup projekt 3" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Item Details Popup End -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
