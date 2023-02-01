@@ -5,8 +5,6 @@
 :root {
   --main-color: #00ddff;
   --green: #00ff00;
-  /* --blue-dark: #18293c; */
-  --blue-dark: #fff;
   --orange: #ffa500;
   --green-yellow: #cddc39;
   --pink-light: #efa2b4;
@@ -62,7 +60,7 @@ body {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  color: var(--blue-dark);
+  color: var(--white);
   line-height: 1.5;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
@@ -178,7 +176,6 @@ section.fade-out {
 
 .section-title h2 {
   font-size: 40px;
-  text-transform: capitalize;
 }
 
 /* ---------- Custom Scrollbar ---------- */
@@ -209,7 +206,6 @@ button {
   border-radius: 30px;
   color: var(--main-color);
   font-weight: 500;
-  text-transform: capitalize;
   font-family: inherit;
   font-size: 16px;
   cursor: pointer;
@@ -231,7 +227,7 @@ button {
   left: 0;
   height: 100%;
   width: 0%;
-  background-color: var(--main-color);
+  background-color: rgba(0, 221, 255, 0.6);
   z-index: -1;
   transition: width 0.35s ease;
 }
@@ -369,7 +365,6 @@ button {
   top: 0;
   height: 100%;
   width: 100%;
-  /* z-index: 999; */
   background-color: var(--white-alpha-25);
   backdrop-filter: var(--backdrop-filter-blur);
   display: flex;
@@ -540,9 +535,8 @@ button {
 }
 
 .header .nav-inner ul li a {
-  font-size: 40px;
-  text-transform: capitalize;
-  color: var(--blue-dark);
+  font-size: 35px;
+  color: var(--white);
   display: block;
   font-weight: 500;
   padding: 8px 15px;
@@ -600,7 +594,6 @@ button {
 }
 .home-text h2 {
   font-size: 20px;
-  text-transform: capitalize;
   font-weight: 300;
   margin: 0 0 30px;
   padding: 5px;
@@ -639,21 +632,29 @@ button {
 }
 
 .about-img .img-box {
+  /* STARI STIL */
+  /* 
   background-color: var(--white-alpha-25);
-  max-width: 380px;
   border: 1px solid var(--white-alpha-40);
+  border-radius: 10px; 
+  */
+  max-width: 380px;
   margin: auto;
-  border-radius: 10px;
 }
 
 .about-img .img-box img {
-  width: 100%;
+  width: 80%;
+  margin: 0 10%;
 }
 
 .about-text h3 {
-  text-transform: capitalize;
   font-size: 20px;
   margin: 20px 0;
+}
+
+.about-text p {
+  text-align: justify;
+  line-height: 1.6;
 }
 
 .about-text .skills {
@@ -679,7 +680,7 @@ button {
   border: none;
   text-transform: capitalize;
   display: inline-block;
-  color: var(--blue-dark);
+  color: var(--white);
   font-size: 20px;
   cursor: pointer;
   font-weight: 500;
@@ -700,7 +701,7 @@ button {
   bottom: 0;
   width: 0%;
   height: 1px;
-  background-color: var(--blue-dark);
+  background-color: var(--white);
   transition: width 0.3s ease;
 }
 
@@ -772,7 +773,7 @@ button {
 
 .about-text .timeline-item h4 {
   font-size: 18px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin: 0 0 10px;
 }
 
@@ -886,12 +887,15 @@ button {
 
 .pp-body .description {
   margin-bottom: 20px;
+  padding: 10px 0;
+  line-height: 1.6;
+  text-align: justify;
 }
 
 .pp-body .general-info li {
   margin-bottom: 10px;
   font-weight: 500;
-  text-transform: capitalize;
+  padding: 5px 0;
 }
 
 .pp-body .general-info li span {
@@ -899,8 +903,42 @@ button {
 }
 
 .pp-body .general-info li a {
-  text-transform: lowercase;
   color: var(--main-color);
+}
+
+/* ---------- Blob ---------- */
+.blob {
+  width: 100%;
+  height: 240px;
+  background: linear-gradient(
+    135deg,
+    rgba(47, 184, 255, 0.2) 30%,
+    var(--main-color) 100%
+  );
+  mix-blend-mode: color-dodge;
+  -webkit-animation: move 5s infinite alternate;
+  animation: move 5s infinite alternate;
+  transition: 0.2s cubic-bezier(0.07, 0.8, 0.16, 1);
+}
+
+@-webkit-keyframes move {
+  from {
+    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+  }
+
+  to {
+    border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+  }
+}
+
+@keyframes move {
+  from {
+    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+  }
+
+  to {
+    border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+  }
 }
 
 /* ---------- Responsive ---------- */
