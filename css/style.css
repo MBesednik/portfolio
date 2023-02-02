@@ -61,7 +61,6 @@ body {
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
   padding: 35px 15px;
-  transition: all 2s ease;
 }
 
 body.hide-scrolling {
@@ -293,7 +292,6 @@ button {
   width: calc(100% - 30px);
   left: 50%;
   transform: translateX(-50%);
-  transition: all 2s ease;
 }
 
 .bg-circles div {
