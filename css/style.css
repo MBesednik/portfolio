@@ -13,8 +13,6 @@
   --white-alpha-40: rgba(255, 255, 255, 0.4);
   --white-alpha-25: rgba(255, 255, 255, 0.15);
   --backdrop-filter-blur: blur(5px);
-
-  background-attachment: fixed;
 }
 
 /* ---------- Global Settings ---------- */
@@ -52,13 +50,9 @@ body {
     #00498d 80%,
     #0052a2 100%
   ); */
-  background: linear-gradient(
-    to right,
-    #232526,
-    #071d32
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #232526, #071d32);
 
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -75,8 +69,7 @@ body.hide-scrolling {
 
 body::before {
   content: '';
-  /* position: fixed; */
-  background-attachment: fixed;
+  position: fixed;
   left: 0;
   top: 0;
   height: 100%;
