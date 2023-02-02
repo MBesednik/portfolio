@@ -76,6 +76,7 @@ body.hide-scrolling {
 body::before {
   content: '';
   /* position: fixed; */
+  background-attachment: fixed;
   left: 0;
   top: 0;
   height: 100%;
