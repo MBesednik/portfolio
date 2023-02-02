@@ -111,7 +111,7 @@ ul {
 section {
   background-color: var(--white-alpha-25);
   border: 1px solid var(--white-alpha-40);
-  min-height: 80vh;
+  min-height: calc(100vh - 60px);
   border-radius: 30px;
   backdrop-filter: var(--backdrop-filter-blur);
   display: none;
