@@ -295,7 +295,7 @@ button {
 }
 
 .bg-circles div {
-  position: absolute;
+  position: relative;
   border-radius: 50%;
 }
 
@@ -323,8 +323,8 @@ button {
   height: 120px;
   width: 120px;
   background-color: var(--white);
-  top: 40%;
-  right: -60px;
+  top: 10%;
+  left: 90%;
   opacity: 0.6;
 }
 
@@ -332,10 +332,20 @@ button {
   height: 50px;
   width: 50px;
   background-color: var(--orange);
-  top: 80%;
-  left: -30px;
+  top: 40%;
+  right: 8%;
   opacity: 0.6;
 }
+
+/* .bg-circles .circle-5 {
+  height: 60px;
+  width: 60px;
+  background-color: var(--green);
+  left: 5%;
+  top: 50%;
+  opacity: 0.3;
+  animation: zoomInOut 8s linear infinite;
+} */
 
 /* ---------- Overlay ---------- */
 .overlay {
