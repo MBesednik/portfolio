@@ -296,7 +296,7 @@ button {
 }
 
 .bg-circles div {
-  position: relative;
+  position: absolute;
   border-radius: 50%;
 }
 
