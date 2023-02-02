@@ -33,11 +33,9 @@ document.addEventListener('click', (e) => {
     navToggler.classList.add('hide');
     if (e.target.classList.contains('nav-item')) {
       toggleNavbar();
-      document.body.classList.toggle('hide-scrolling');
     } else {
       hideSection();
-      // document.body.classList.add('hide-scrolling');
-      document.body.classList.toggle('hide-scrolling');
+      document.body.classList.add('hide-scrolling');
     }
     setTimeout(() => {
       document
