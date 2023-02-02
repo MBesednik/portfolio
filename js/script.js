@@ -42,7 +42,7 @@ document.addEventListener('click', (e) => {
         .querySelector('section.active')
         .classList.remove('active', 'fade-out');
       document.querySelector(e.target.hash).classList.add('active');
-      // window.scrollTo(0, 0);
+      window.scrollTo(0, 0);
       document.body.classList.remove('hide-scrolling');
       navToggler.classList.remove('hide');
       document.querySelector('.overlay').classList.remove('active');
@@ -73,7 +73,7 @@ tabsContainer.addEventListener('click', (e) => {
 document.addEventListener('click', (e) => {
   if (e.target.classList.contains('view-project-btn')) {
     togglePortfolioPopup();
-    // document.querySelector('.portfolio-popup').scrollTo(0, 0);
+    document.querySelector('.portfolio-popup').scrollTo(0, 0);
     portfolioItemDetails(e.target.parentElement);
   }
 });
