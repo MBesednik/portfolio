@@ -285,7 +285,7 @@ button {
 }
 /* ---------- Background Circles ---------- */
 .bg-circles {
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   height: 100%;
   max-width: 1200px;
@@ -296,7 +296,7 @@ button {
 }
 
 .bg-circles div {
-  position: absolute;
+  position: relative;
   border-radius: 50%;
 }
 
