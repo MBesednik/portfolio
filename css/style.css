@@ -1000,3 +1000,7 @@ button {
     font-size: 30px;
   }
 }
+
+.hide {
+  display: none !important;
+}
