@@ -29,7 +29,7 @@
 }
 
 body {
-  min-height: 110vh;
+  min-height: 100vh;
   /* background-image: linear-gradient(
     to bottom right,
     var(--pink-light),
@@ -55,8 +55,8 @@ body {
     #232526,
     #071d32
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* 
-  background-attachment: fixed; */
+
+  background-attachment: local;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
