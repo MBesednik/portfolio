@@ -29,7 +29,7 @@
 }
 
 body {
-  height: 100%;
+  min-height: 100vh;
   /* background-image: linear-gradient(
     to bottom right,
     var(--pink-light),
@@ -111,7 +111,7 @@ ul {
 section {
   background-color: var(--white-alpha-25);
   border: 1px solid var(--white-alpha-40);
-  min-height: 80%;
+  min-height: calc(100vh - 60px);
   border-radius: 30px;
   backdrop-filter: var(--backdrop-filter-blur);
   display: none;
@@ -999,8 +999,4 @@ button {
   .header .nav-inner ul li a {
     font-size: 30px;
   }
-}
-
-.hide {
-  display: none !important;
 }
